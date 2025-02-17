@@ -119,35 +119,32 @@
       <section class="bg-body-emphasis pb-8 avProfile_border box_shadow_main rounded-2" id="home">
         <div class="container-small hero-header-container px-lg-7 px-xxl-3">
           <div class="row align-items-center">
-            <div class="col-12 col-lg-auto order-0 order-md-1 text-end order-1">
-              <div class="position-relative p-5 p-md-7 d-lg-none">
-                <div class="bg-holder" style="background-image:url(./contents/bg/bg-23.png);background-size:contain;"></div>
-                <!--/.bg-holder-->
-                <div class="position-relative"><img class="w-100 shadow-lg d-dark-none rounded-2"
-                    src="./contents/bg/ins-light2.png" alt="hero-header" /><img class="w-100 shadow-lg d-light-none rounded-2"
-                    src="./contents/bg/ins-dark2.png" alt="hero-header" /></div>
-              </div>
-              <div class="hero-image-container position-absolute top-0 bottom-0 end-0 d-none d-lg-block">
-                <div class="position-relative h-100 w-100">
-                  <div class="position-absolute h-100 top-0 d-flex align-items-center end-0 hero-image-container-bg"><img
-                      class="pt-7 pt-md-0 w-100" src="./contents/bg/bg-1-2.png" alt="hero-header" /></div>
-                  <div class="position-absolute h-100 top-0 d-flex align-items-center end-0"><img
-                      class="pt-7 pt-md-0 w-100 shadow-lg d-dark-none rounded-2" src="./contents/bg/ins-light2.png"
-                      alt="hero-header" /><img class="pt-7 pt-md-0 w-100 shadow-lg d-light-none rounded-2"
-                      src="./contents/bg/ins-dark2.png" alt="hero-header" /></div>
+            <div class="main-container">
+              <canvas id="finalCanvas"></canvas>
+            
+              <div class="right">
+                <h2>Select your frame color!</h2>
+            
+                <div class="color-grid">
+                  <button class="color-btn" data-color="./contents/theme/nude.jpg" style="background-image: url('./contents/theme/nude.jpg');"></button>
+                  <button class="color-btn" data-color="./contents/theme/lilac.jpg" style="background-image: url('./contents/theme/lilac.jpg');"></button>
+                  <button class="color-btn" data-color="./contents/theme/blue.jpg" style="background-image: url('./contents/theme/blue.jpg');"></button>
+                  <button class="color-btn" data-color="./contents/theme/red.jpg" style="background-image: url('./contents/theme/red.jpg');"></button>
+                  <button class="color-btn" data-color="./contents/theme/cobalt.jpg" style="background-image: url('./contents/theme/cobalt.jpg');"></button>
+                  <button class="color-btn" data-color="./contents/theme/matcha.jpg" style="background-image: url('./contents/theme/matcha.jpg');"></button>
+                  <button class="color-btn" data-color="./contents/theme/valentines.png" style="background-image: url('./contents/theme/valentines.png');"></button>
+                  <button class="color-btn" data-color="./contents/theme/valentines1.png" style="background-image: url('./contents/theme/valentines1.png');"></button>
+                  <button class="color-btn" data-color="./contents/theme/valentines2.png" style="background-image: url('./contents/theme/valentines2.png');"></button>
+                </div>
+            
+            
+                <div class="button-last">
+                  <a href="./capture.html"><button>Retake</button></a>
+                  <button id="download-btn">Download</button>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 text-lg-start text-center pt-8 pb-6 order-0 position-relative">
-              <h1 class="fs-3 fs-lg-2 fs-md-1 fs-lg-2 fs-xl-3 fs fw-black mb-4"><span
-                  class="text-primary me-3">Instructions :)</span></h1>
-                  <hr class="bg-body-secondary mb-4 mt-4" data-aos="fade-up" data-aos-duration="1000" />
-              <br class="mb-5"> 1.) Once you press the Start button, the photobooth will begin capturing automatically.</br>
-                2.) You'll have 5 seconds between each photo, so get ready, strike a pose, and smile!</p><a class="btn btn-lg btn-primary rounded-pill me-3" href="./capture.html"
-                role="button">Capture Now</a><a class="btn btn-link me-2 fs-8 p-0" href="./index.html" role="button"><span
-                  class="fa-solid fa-angle-left ms-2 fs-9"></span> Back</a>
             </div>
-          </div>
         </div>
       </section>
       <!-- End PicTsur Landing Page -->
@@ -201,6 +198,7 @@
     <script src="./scripts/js/constant.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./scripts/js/lib/stats.js"></script>
+    <script src="./scripts/js/download.js"></script>
     <!-- END Footer Section -->
   </main>
   <!-- END Footer Section -->

@@ -769,11 +769,11 @@ font-style:normal;
 
 /* Nav Title color - Prog */
 .navTitleProgColor{
-    color: #00586a;
+    color: #6C63FF;
 }
 
 .navTitleDevColor{
-    color: #DE6120;
+    color: #306263;
 }
 /* END Nav Title color - Prog */
 
@@ -1179,4 +1179,12 @@ body {
     font-size: 16px;
     border: none;
     color: white;
+}
+
+.bg-border-light{
+    border: 1px solid #CCCCCC
+}
+
+.bg-border-dark{
+    border: 1px solid #16344B
 }

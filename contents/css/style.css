@@ -1188,3 +1188,23 @@ body {
 .bg-border-dark{
     border: 1px solid #16344B
 }
+
+.svg--retake {
+    display: inline-block;
+    margin: 0rem 0rem 0rem 0rem;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://img.icons8.com/?size=100&id=81414&format=png&color=000000");
+}
+
+.svg--download {
+    display: inline-block;
+    margin: 0rem 0rem 0rem 0rem;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://img.icons8.com/?size=100&id=80618&format=png&color=000000");
+}

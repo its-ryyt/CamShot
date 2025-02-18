@@ -53,11 +53,11 @@ function drawCollage() {
 // Function to draw the logo
 function drawLogo() {
     const logo = new Image();
-    logo.src = "img/logo.png";
+    logo.src = "./contents/images/bot-logo.png";
 
     logo.onload = () => {
-        const logoWidth = 80;
-        const logoHeight = 20;
+        const logoWidth = 140;
+        const logoHeight = 30
         const logoX = (canvasWidth - logoWidth) / 2;
         const logoY = finalCanvas.height - logoSpace + 35;
         ctx.drawImage(logo, logoX, logoY, logoWidth, logoHeight);

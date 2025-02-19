@@ -76,9 +76,11 @@ colorButtons.forEach(button => {
 
 // Download the final image
 downloadBtn.addEventListener("click", () => {
+    const now = new Date();
+    const phDate = now.toLocaleDateString('en-PH');
     const link = document.createElement("a");
     link.href = finalCanvas.toDataURL("image/png");
-    link.download = "photobooth.png";
+    link.download = "camshot_" + phDate + ".png";
     link.click();
 });
 
